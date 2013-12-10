@@ -14,44 +14,44 @@ $('#deal').click(function() {
 	
 	if(p1_value > p2_value){
 		p1_points = p1_points + 1;
-		$('#p1score').html("Spades:" + "<br>" + p1_points);
+		$('#p1score').html("<h3>Spades:" + "<br>" + p1_points + "</h3>");
 	}
 	
 	if(p1_value < p2_value){
 		p2_points = p2_points + 1;
-		$('#p2score').html("Hearts:" + "<br>" + p2_points);
+		$('#p2score').html("<h3>Hearts:" + "<br>" + p2_points+"</h3>");
 	}
 	
 	if(p1_value == 14){
-		$('#s1show').html("<br>" + "A" + "&spades;");
+		$('#s1show').html("<h1><br>" + "A" + "&spades; </h1>");
 	}
 	else if(p1_value == 13){
-		$('#s1show').html("<br>" + "K" + "&spades;");
+		$('#s1show').html("<h1><br>" + "K" + "&spades; </h1>");
 	}
 	else if(p1_value == 12){
-		$('#s1show').html("<br>" + "Q" + "&spades;");
+		$('#s1show').html("<h1><br>" + "Q" + "&spades; </h1>");
 	}
 	else if(p1_value == 11){
-		$('#s1show').html("<br>" + "J" + "&spades;");
+		$('#s1show').html("<h1><br>" + "J" + "&spades; </h1>");
 	}	
 	else{
-		$('#s1show').html("<br>" +p1_value + "&spades;");
+		$('#s1show').html("<h1><br>" +p1_value + "&spades; </h1>");
 	}
 	
 	if(p2_value == 14){
-		$('#s2show').html("<br>" + "A" + "&hearts;");
+		$('#s2show').html("<h1><br>" + "A" + "&hearts; </h1>");
 	}
 	else if(p2_value == 13){
-		$('#s2show').html("<br>" + "K" + "&hearts;");
+		$('#s2show').html("<h1><br>" + "K" + "&hearts; </h1>");
 	}
 	else if(p2_value == 12){
-		$('#s2show').html("<br>" + "Q" + "&hearts;");
+		$('#s2show').html("<h1><br>" + "Q" + "&hearts; </h1>");
 	}
 	else if(p2_value == 11){
-		$('#s2show').html("<br>" + "J" + "&hearts;");
+		$('#s2show').html("<h1><br>" + "J" + "&hearts; </h1>");
 	}	
 	else{
-		$('#s2show').html("<br>" +p2_value + "&hearts;");
+		$('#s2show').html("<h1><br>" +p2_value + "&hearts; </h1>");
 	}	
 
 	if(p2_points == 13){
