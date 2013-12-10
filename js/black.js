@@ -58,15 +58,15 @@ $('#deal').click(function() {
 		$('#deal').html("<b>Hearts WIN!</b><br> Click to play again.");		
 		p1_points = 0;
 		p2_points = 0;
-		$('#p2score').html("Hearts:" + "<br>" + 0);
-		$('#p1score').html("Spades:" + "<br>" + 0);
+		$('#p2score').html("<h3>Hearts:" + "<br>" + 0 +"</h3>");
+		$('#p1score').html("<h3>Spades:" + "<br>" + 0 +"</h3>");
 	}
 	if(p1_points == 13){
 		$('#deal').html("<b>SPADES WIN!</b><br> Click to play again.");
 		p1_points = 0;
 		p2_points = 0;
-		$('#p2score').html("Hearts:" + "<br>" + 0);
-		$('#p1score').html("Spades:" + "<br>" + 0);
+		$('#p2score').html("<h3>Hearts:" + "<br>" + 0 +"</h3>");
+		$('#p1score').html("<h3>Spades:" + "<br>" + 0+"</h3>");
 		
 	}
 });
