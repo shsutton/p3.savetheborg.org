@@ -55,8 +55,7 @@ $('#deal').click(function() {
 	}	
 
 	if(p2_points == 13){
-		$('#gameName').html( "<h1>&spades; &clubs; Game Over HEARTS WIN Game Over &diams; &hearts;</h1><br>");
-		$('#deal').html("Click to play again.");
+		$('#deal').html("<b>Hearts WIN!</b><br> Click to play again.");		
 		p1_points = 0;
 		p2_points = 0;
 		$('#p2score').html("Hearts:" + "<br>" + 0);
