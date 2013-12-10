@@ -1,0 +1,46 @@
+.cards{
+	border: 3px solid black;
+	width: 100px;
+	height: 150px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+#s1show, #s2show{
+	background-color: grey;
+	cursor: pointer;
+}
+
+#s1stack, #s2stack{
+	background-color: red;
+}
+
+#s2stack, #s2show, #p2score{
+	float: right;
+}
+
+#s1show, #s1stack, #p1score{
+	float: left;
+}
+
+.scoreBoard{
+	background-color: #0066ff;
+	border: 3px solid black;
+	width: 215px;
+	height: 50px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+/*
+#p1score{
+	float: left;
+}
+
+#p2score{
+	float: right;
+}
+
